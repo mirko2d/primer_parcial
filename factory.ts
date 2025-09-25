@@ -57,4 +57,4 @@ class EquipoFactory {
 const factory = new EquipoFactory();
 
 const server = factory.createEquipo("Servidor", "Dell PowerEdge", "32GB", "Xeon");
-console.log(server.detalles());
+console.log(server.detalles()); // Servidor Dell PowerEdge con 32GB RAM y procesador Xeon
